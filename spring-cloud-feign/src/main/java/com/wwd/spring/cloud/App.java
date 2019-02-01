@@ -5,11 +5,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication(scanBasePackages = {"com.wwd.spring.cloud.*"})
 @EnableEurekaClient
-@EnableFeignClients(basePackages = {"com.wwd.spring.cloud.*"})
+@EnableFeignClients(basePackages = {"com.wwd.spring.cloud.feign"})
 public class App {
     private static final Logger logger = LoggerFactory.getLogger(App.class);
 

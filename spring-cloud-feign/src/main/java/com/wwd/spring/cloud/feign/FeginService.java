@@ -1,7 +1,6 @@
-package com.wwd.spring.cloud.fegin;
+package com.wwd.spring.cloud.feign;
 
-import org.springframework.cloud.netflix.feign.FeignClient;
-import org.springframework.http.MediaType;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
 @FeignClient(name = "eureka-thymeleaf")

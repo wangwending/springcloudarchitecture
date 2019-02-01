@@ -2,7 +2,7 @@
 
 <Configuration status="INFO">
     <Properties>
-        <Property name="fileName">spring-cloud-thymeleaf.log</Property>
+        <Property name="fileName">spring-cloud-gateway.log</Property>
         <Property name="backupFilePatch">/data/logs/</Property>
     </Properties>
 

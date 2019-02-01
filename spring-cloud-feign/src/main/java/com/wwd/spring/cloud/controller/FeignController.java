@@ -1,6 +1,6 @@
 package com.wwd.spring.cloud.controller;
 
-import com.wwd.spring.cloud.fegin.FeginService;
+import com.wwd.spring.cloud.feign.FeginService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
